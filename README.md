@@ -403,3 +403,8 @@ Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines and the [Bount
 
 ## Contributors
 - [sheerai](https://github.com/sheerai) - P2P Identity Hardening & Gossip Fixes
+
+### P2P Identity Path Priority
+1. /etc/rustchain/p2p_identity.pem (System)
+2. $RC_P2P_PRIVKEY_PATH (Environment)
+3. ~/.rustchain/p2p_identity.pem (User Home)
